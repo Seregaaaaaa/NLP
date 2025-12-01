@@ -1,3 +1,5 @@
+# В качестве текста была использована статья о истории (названия) ТГУ https://tsu.ru/university/tsutoday/istoriya_nazvaniya_tgu.php
+
 import pymorphy3
 import re
 
