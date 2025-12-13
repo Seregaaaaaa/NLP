@@ -18,3 +18,7 @@ corpus.txt
 
 # Specific folders
 Маскировка слов/RussianNovels-master/
+
+# Scripts to ignore
+sentence_parser.py
+Маскировка слов/sentence_parser.py
