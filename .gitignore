@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv_new/
+env/
+venv/
+
+# Data files (large)
+*.xml
+all_sentences.txt
+cbow.txt
+corpus.txt
+
+# OS
+.DS_Store
+
+# Specific folders
+Маскировка слов/RussianNovels-master/
