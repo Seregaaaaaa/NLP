@@ -10,12 +10,10 @@ model_name = "ai-forever/rugpt3large_based_on_gpt2"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
-
 device = torch.device("cpu")
     
 model.to(device)
 
-# 1. Фиксация
 random.seed(seed)
 np.random.seed(seed)
 torch.manual_seed(seed)
